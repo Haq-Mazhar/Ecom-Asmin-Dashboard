@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <div class="header"> 
+        <h2>Admin Dashboard</h2>
+        <div class="avatar">
+            <img src="https://cdn.pixabay.com/photo/2023/10/03/10/39/ai-generated-8291190_640.png"
+                alt="">
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="#">🏠Home</a>
+        <a href="./order.html">📦Orders</a>
+        <a href="./catagery.html">Category</a>
+        <a href="./product.html">🛒Products</a>
+        <a href="./customer.html">👥Customer</a>
+        <a href="./setting.html">⚙Setting</a>
+        <a href="#">🚪Logout</a>
+    </div>
+    <div class="main-content">
+        <h1>Dashboard</h1>
+        <div class="card">
+            <h3>Total Orders</h3>
+            <p>125</p>
+        </div>
+        <div class="card">
+            <h3>Pending Order</h3>
+            <p>18</p>
+        </div>
+        <div class="card">
+            <h3>Complete Order</h3>
+            <p>102</p>
+        </div>
+        <div class="card">
+            <h2>Total User</h2>
+            <p id="users">0</p>
+        </div>
+        <div class="card">
+            <h2>Total Products</h2>
+            <p>200+</p>
+        </div>
+        <div class="card">
+            <h2>Total catagery</h2>
+            <p id="catagery">0</p>
+        </div>
+        <div class="table-container">
+            <h2>
+                Recent Orders
+            </h2>
+            <table>
+                <tr>
+                    <th>Order Id</th>
+                    <th>Customer</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>#101</td>
+                    <td>Ali</td>
+                    <td>$2000</td>
+                    <td class="pending">Pending</td>
+                </tr>
+                 <tr>
+                    <td>#102</td>
+                    <td>Omer</td>
+                    <td>$200</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                 <tr>
+                    <td>#103</td>
+                    <td>Saqib</td>
+                    <td>$120</td>
+                    <td class="cancel">Cancel</td>
+                </tr>
+                 <tr>
+                    <td>#104</td>
+                    <td>Tahir</td>
+                    <td>$150</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                 <tr>
+                    <td>#105</td>
+                    <td>Ali Hyder</td>
+                    <td>$190</td>
+                    <td class="cancel">Cancel</td>
+                </tr>
+                <tr>
+                    <td>#106</td>
+                    <td>Aqib</td>
+                    <td>$130</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                <tr>
+                    <td>#107</td>
+                    <td>Muzamil</td>
+                    <td>$180</td>
+                    <td class="complete">Complete</td>
+                </tr>
+               
+                <tr>
+                    <td>#108</td>
+                    <td>Atta</td>
+                    <td>$110</td>
+                    <td class="pending">Pending</td>
+                </tr>
+                 <tr>
+                    <td>#109</td>
+                    <td>Asif</td>
+                    <td>$220</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                 <tr>
+                    <td>#110</td>
+                    <td>Altaf</td>
+                    <td>$170</td>
+                    <td class="cancel">Cancel</td>
+                </tr>
+                <tr>
+                    <td>#111</td>
+                    <td>Ali khan</td>
+                    <td>$210</td>
+                    <td class="pending">Pending</td>
+                </tr>
+                <tr>
+                    <td>#112</td>
+                    <td>Farooq</td>
+                    <td>$240</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                <tr>
+                    <td>#113</td>
+                    <td>Sarah</td>
+                    <td>$200</td>
+                    <td class="cancel">Cancel</td>
+                </tr>
+                <tr>
+                    <td>#114</td>
+                    <td>Rehman</td>
+                    <td>$70</td>
+                    <td class="pending">Pending</td>
+                </tr>
+                <tr>
+                    <td>#115</td>
+                    <td>Murtaza</td>
+                    <td>$300</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                <tr>
+                    <td>#116</td>
+                    <td>Kashif</td>
+                    <td>$130</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                <tr>
+                    <td>#117</td>
+                    <td>Moiz</td>
+                    <td>$350</td>
+                    <td class="pending">Pending</td>
+                </tr>
+                <tr>
+                    <td>#118</td>
+                    <td>Zohaib</td>
+                    <td>$220</td>
+                    <td class="cancel">Cancel</td>
+                </tr>
+                <tr>
+                    <td>#119</td>
+                    <td>Zain</td>
+                    <td>$270</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                <tr>
+                    <td>#120</td>
+                    <td>Huzaifa</td>
+                    <td>$110</td>
+                    <td class="cancel">Cancel</td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html> 

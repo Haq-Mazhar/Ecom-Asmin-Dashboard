@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2>Admin Dashboard</h2>
+        <div class="avatar">
+            <img src="https://cdn.pixabay.com/photo/2023/10/03/10/39/ai-generated-8291190_640.png"
+                alt="">
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="./index.html">🏠Home</a>
+        <a href="./order.html">📦Orders</a>
+        <a href="./catagery.html">Category</a>
+        <a href="./product.html">🛒Products</a>
+        <a href="#">👥Customer</a>
+        <a href="./setting.html">⚙Setting</a>
+        <a href="#">🚪Logout</a>
+    </div>
+    <div class="main-content">
+       
+        <div class="table-container">
+            <h2>
+                Total Customer 👥
+            </h2>
+            <table id="userTable">
+                <tr>
+                    <th>S.No</th> 
+                    <th>Customer Pic</th>
+                    <th>Customer Email</th>
+                    <th>Customer Name</th>
+                    <th>Customer Contact</th>
+
+                </tr>
+                <tr id="loading">
+                    <td colspan="5" style="text-align: center;">
+                        <img src="https://media.tenor.com/XasjKGMk_wAAAAAM/load-loading.gif" alt="">
+                    </td>
+                </tr>
+                
+            </table>
+            
+        </div>
+    </div>
+
+    <script type="module" src="./customer.js"></script>
+</body>
+
+</html>
